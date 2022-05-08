@@ -6,6 +6,7 @@ import os
 import random
 import re
 import youtube_dl
+import youtube_dl
 import aiofiles
 import aiohttp
 from RaiChu.converter import convert
@@ -43,7 +44,7 @@ def ytsearch(query):
 
 
 async def ytdl(format: str, link: str):
-    stdout, stderr = await bash(f'youtube-dl -g -f "{format}" {link}')
+    stdout, stderr = await bash(f'yt-dlp --geo-bypass -g -f "[height<=?720][width<=?1280]" {link}')
     if stdout:
         return 1, stdout.split("\n")[0]
     return 0, stderr
