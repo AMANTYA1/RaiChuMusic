@@ -176,7 +176,9 @@ async def play(c: Client, m: Message):
                 )
             )
         else:
-            suhu = await m.reply_text(f"🔎 Searching")
+            suhu = await m.reply_text(
+        f"**𝙆𝙄𝙂𝙊 Downloading**\n\n0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%"
+    )
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             if search == 0:
@@ -191,11 +193,13 @@ async def play(c: Client, m: Message):
                 gcname = m.chat.title
                 videoid = search[4]
                 dlurl = f"https://www.youtubepp.com/watch?v={videoid}"
-                info = f"https://t.me/PrincexMusicBot?start=info_{videoid}"
+                info = f"https://t.me/elsaa_Ro_bot?start=info_{videoid}"
                 keyboard = stream_markup(user_id, dlurl)
                 playimg = await play_thumb(videoid)
                 queueimg = await queue_thumb(videoid)
-                await suhu.edit(f"📥 Downloading")
+                await suhu.edit(
+                            f"**𝙉𝙪𝙡𝙡 Downloader**\n\n**Title**: {title[:22]}\n\n100% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
+                        )
                 format = "bestaudio"
                 abhi, ytlink = await ytdl(format, url)
                 if abhi == 0:
