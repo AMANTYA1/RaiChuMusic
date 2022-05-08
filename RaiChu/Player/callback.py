@@ -76,6 +76,14 @@ async def cbbasic(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""ℹ️ Command Menu
 
+🤷 » /id - To get user id
+
+👩🏻‍💼 » /tm - to get telegraph img link
+
+👩🏻‍💼 » /q - to get reply message in stickers
+
+👩🏻‍💼 » /speedtest - To get Speedtest 
+
 👩🏻‍💼 » /play - Type this with give the song title or youtube link or audio file to play Music. (Remember to don't play YouTube live stream by using this command!, because it will cause unforeseen problems.)
 
 👩🏻‍💼 » /vplay - Type this with give the song title or youtube link or video file to play Video. (Remember to don't play YouTube live video by using this command!, because it will cause unforeseen problems.)
