@@ -25,15 +25,15 @@ telegram bot project for streaming video on telegram video chat, powered by [tgc
 </p>  
 
 ## Repo Stats
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=youtubeslgeekshow&repo=Video-call-bot&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=AMANTYA1&repo=RaiChu-MusicV2&theme=dark)
 
 🏷️ --**Setting Up**-- :
-- 1.) first, add me to your group.
+- 1.) first, add @ALONE_XDBot to your group.
 - 2.) then promote me as admin and give all permissions except anonymous admin.
-- 3.) add @vcpalyassistant to your group.
-- 4.) turn on the voice chat first before start to stream video.
-- 5.) type /stream (reply to video) to start streaming.
-- 6.) type /stop to end the video streaming.
+- 3.) add @RaiChupulg to your group.
+- 4.) turn on the voice chat first before start to play song.
+- 5.) type /play (reply to video) to start streaming.
+- 6.) type /end to end the video streaming.
 
 ## 🛠 Available Commands:
 
@@ -44,7 +44,6 @@ COMMAND | FUNCTION
 `/start` | start bot
 `/help`| get help
 `/video` [name] | download the video
-`/alive` | `inline search` commands `help`
 
 🏷️ --**Admin Only Commands**-- :
 
@@ -55,6 +54,7 @@ COMMAND | FUNCTION
 `/mute` | mute the userbot in vc
 `/unmute` | unmute the userbot in vc
 `/end`| end stream and left vc
+`/skip`| to skip a current song
 
 ## 🍁 Get STRING_SESSION from below:
 
