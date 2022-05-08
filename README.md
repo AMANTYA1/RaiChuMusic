@@ -7,11 +7,11 @@ telegram bot project for streaming video on telegram video chat, powered by [tgc
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=green" /></a>
     <a href="https://github.com/AMANTYA1/RaiChu-MusicV2/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" /></a>
     <a href="https://app.codacy.com/gh/AMANTYA1/RaiChu-MusicV2/dashboard"> <img src="https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=green&logo=codacy&style=flat-square" alt="Codacy" /></a><br>
-    <a href="https://github.com/AMANTYA1/RaiChu-MusicV2"> <img src="https://img.shields.io/github/repo-size/youtubeslgeekshow/Video-call-bot?color=green&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/AMANTYA1/RaiChu-MusicV2/commits/main"> <img src="https://img.shields.io/github/last-commit/youtubeslgeekshow/Video-call-bot?color=green&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/AMANTYA1/RaiChu-MusicV2/issues"> <img src="https://img.shields.io/github/issues/youtubeslgeekshow/Video-call-bot?color=green&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/AMANTYA1/RaiChu-MusicV2/network/members"> <img src="https://img.shields.io/github/forks/youtubeslgeekshow/Video-call-bot?color=green&logo=github&logoColor=blue&style=flat-square" /></a>  
-    <a href="https://github.com/AMANTYA1/RaiChu-MusicV2/network/members"> <img src="https://img.shields.io/github/stars/youtubeslgeekshow/Video-call-bot?color=green&logo=github&logoColor=blue&style=flat-square" /></a>  
+    <a href="https://github.com/AMANTYA1/RaiChu-MusicV2"> <img src="https://img.shields.io/github/repo-size/AMANTYA1/Video-call-bot?color=green&logo=github&logoColor=blue&style=flat-square" /></a>
+    <a href="https://github.com/AMANTYA1/RaiChu-MusicV2/commits/main"> <img src="https://img.shields.io/github/last-commit/AMANTYA1/RaiChu-MusicV2?color=green&logo=github&logoColor=blue&style=flat-square" /></a>
+    <a href="https://github.com/AMANTYA1/RaiChu-MusicV2/issues"> <img src="https://img.shields.io/github/issues/AMANTYA1/RaiChu-MusicV2?color=green&logo=github&logoColor=blue&style=flat-square" /></a>
+    <a href="https://github.com/AMANTYA1/RaiChu-MusicV2/network/members"> <img src="https://img.shields.io/github/forks/AMANTYA1/RaiChu-MusicV2?color=green&logo=github&logoColor=blue&style=flat-square" /></a>  
+    <a href="https://github.com/AMANTYA1/RaiChu-MusicV2/network/members"> <img src="https://img.shields.io/github/stars/AMANTYA1/RaiChu-MusicV2?color=green&logo=github&logoColor=blue&style=flat-square" /></a>  
 </p>
 
 
