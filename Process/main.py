@@ -1,5 +1,5 @@
 from pyrogram import Client
-from RaiChu.Config import API_ID, API_HASH, BOT_TOKEN, SESSION_NAME
+from RaiChu.config import API_ID, API_HASH, BOT_TOKEN, SESSION_NAME
 from pytgcalls import PyTgCalls, idle
 
 bot = Client(
