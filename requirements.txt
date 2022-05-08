@@ -1,13 +1,11 @@
 tgcrypto
 asyncio
 ffmpeg-python
-py-tgcalls
+py-tgcalls==0.8.1
 pyrogram==1.4.12
-youtube-search-python
-yt_dlp
-youtube_dl
+youtube-search-python==1.4.9
+yt-dlp==2021.12.01
 youtube-search
-yt-dlp
 python-dotenv
 dnspython
 gitpython
@@ -20,3 +18,8 @@ motor
 psutil
 future
 wget
+pyyaml==5.3.1
+telethon
+speedtest-cli
+telegraph
+python-arq
