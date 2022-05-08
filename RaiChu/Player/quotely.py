@@ -4,6 +4,7 @@ from traceback import format_exc
 from pyrogram.types import Message
 from Python_ARQ import ARQ
 from pyrogram import Client, filters
+from Process.main import bot as app
 
 ARQ_API_KEY = "TTWOWA-MDXMRU-FITNFK-PMHTTB-ARQ"
 aiohttpsession = aiohttp.ClientSession()
@@ -33,7 +34,7 @@ def isArgInt(message: Message) -> bool:
         return [False, 0]
 
 
-@Client.on_message(filters.command(["q", "quotly"]))
+@app.on_message(filters.command(["q", "quotly"]))
 async def quotly_func(client, message: Message):
     if not message.reply_to_message.text:
         return await message.reply_text("`Sending Sticker.....`")
