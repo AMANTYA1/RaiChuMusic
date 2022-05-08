@@ -1,5 +1,3 @@
-# Copyright (C) 2021 By Zaid Vc Player
-
 from __future__ import unicode_literals
 
 import asyncio
