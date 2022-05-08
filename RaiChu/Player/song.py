@@ -13,7 +13,7 @@ import requests
 import wget
 import yt_dlp
 from pyrogram import filters
-from RaiChu.main import bot as Client
+from Process.main import bot as Client
 from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram.types import Message
 from youtube_search import YoutubeSearch
