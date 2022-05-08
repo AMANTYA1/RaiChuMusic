@@ -1,4 +1,4 @@
-<h1> TG -VIDEO STREAM BOT </h1>
+<h1> RaiChu Music </h1>
 
 telegram bot project for streaming video on telegram video chat, powered by [tgcalls](https://github.com/MarshalX/tgcalls) and [pyrogram](https://github.com/pyrogram/pyrogram)
 
@@ -26,6 +26,8 @@ telegram bot project for streaming video on telegram video chat, powered by [tgc
 
 ## Repo Stats
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=AMANTYA1&repo=RaiChu-MusicV2&theme=dark)
+
+## Fine me here  [RaiChu](https://t.me/ALONE_XDBot)
 
 🏷️ --**Setting Up**-- :
 - 1.) first, add @ALONE_XDBot to your group.
