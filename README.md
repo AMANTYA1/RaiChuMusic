@@ -5,13 +5,13 @@ telegram bot project for streaming video on telegram video chat, powered by [tgc
 <p align="center"><a href="https://t.me/BotDuniyaXd"><img src="https://telegra.ph/file/29b1910781fb0d6a4869f.jpg" width="300"></a></p>
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=green" /></a>
-    <a href="https://github.com/youtubeslgeekshow/Video-call-bot/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" /></a>
-    <a href="https://app.codacy.com/gh/youtubeslgeekshow/Video-call-bot/dashboard"> <img src="https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=green&logo=codacy&style=flat-square" alt="Codacy" /></a><br>
-    <a href="https://github.com/youtubeslgeekshow/Video-call-bot"> <img src="https://img.shields.io/github/repo-size/youtubeslgeekshow/Video-call-bot?color=green&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/youtubeslgeekshow/Video-call-bot/commits/main"> <img src="https://img.shields.io/github/last-commit/youtubeslgeekshow/Video-call-bot?color=green&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/youtubeslgeekshow/Video-call-bot/issues"> <img src="https://img.shields.io/github/issues/youtubeslgeekshow/Video-call-bot?color=green&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/youtubeslgeekshow/Video-call-bot/network/members"> <img src="https://img.shields.io/github/forks/youtubeslgeekshow/Video-call-bot?color=green&logo=github&logoColor=blue&style=flat-square" /></a>  
-    <a href="https://github.com/youtubeslgeekshow/Video-call-bot/network/members"> <img src="https://img.shields.io/github/stars/youtubeslgeekshow/Video-call-bot?color=green&logo=github&logoColor=blue&style=flat-square" /></a>  
+    <a href="https://github.com/AMANTYA1/RaiChu-MusicV2/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" /></a>
+    <a href="https://app.codacy.com/gh/AMANTYA1/RaiChu-MusicV2/dashboard"> <img src="https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=green&logo=codacy&style=flat-square" alt="Codacy" /></a><br>
+    <a href="https://github.com/AMANTYA1/RaiChu-MusicV2"> <img src="https://img.shields.io/github/repo-size/youtubeslgeekshow/Video-call-bot?color=green&logo=github&logoColor=blue&style=flat-square" /></a>
+    <a href="https://github.com/AMANTYA1/RaiChu-MusicV2/commits/main"> <img src="https://img.shields.io/github/last-commit/youtubeslgeekshow/Video-call-bot?color=green&logo=github&logoColor=blue&style=flat-square" /></a>
+    <a href="https://github.com/AMANTYA1/RaiChu-MusicV2/issues"> <img src="https://img.shields.io/github/issues/youtubeslgeekshow/Video-call-bot?color=green&logo=github&logoColor=blue&style=flat-square" /></a>
+    <a href="https://github.com/AMANTYA1/RaiChu-MusicV2/network/members"> <img src="https://img.shields.io/github/forks/youtubeslgeekshow/Video-call-bot?color=green&logo=github&logoColor=blue&style=flat-square" /></a>  
+    <a href="https://github.com/AMANTYA1/RaiChu-MusicV2/network/members"> <img src="https://img.shields.io/github/stars/youtubeslgeekshow/Video-call-bot?color=green&logo=github&logoColor=blue&style=flat-square" /></a>  
 </p>
 
 
