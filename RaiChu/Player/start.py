@@ -1,12 +1,17 @@
-
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from RaiChu.config import BOT_NAME as bn
+from RaiChu.config import (
+    ASSISTANT_NAME,
+    BOT_NAME,
+    BOT_USERNAME,
+    GROUP_SUPPORT,
+    OWNER_NAME,
+    UPDATES_CHANNEL,
+)
 from Process.filters import other_filters2
 from time import time
 from datetime import datetime
 from Process.decorators import authorized_users_only
-from RaiChu.config import BOT_USERNAME, ASSISTANT_USERNAME
 
 START_TIME = datetime.utcnow()
 START_TIME_ISO = START_TIME.replace(microsecond=0).isoformat()
@@ -33,32 +38,31 @@ async def _human_time_duration(seconds):
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
         await message.reply_text(
-        f"""**I ᴀᴍ 𝘽𝙤𝙩 𝘿𝙪𝙣𝙞𝙮𝙖 𝙈𝙪𝙨𝙞𝙘   
-ʙᴏᴛ ʜᴀɴᴅʟᴇ ʙʏ [KIGO](https://t.me/BotDuniyaXd)
-Thanks to add me 😇**
+        f"""Hello, My name is {BOT_NAME}.
+I'm a telegram streaming bot with some useful features.
+Feel free to add me to your groups.
         """,
         reply_markup=InlineKeyboardMarkup(
             [
+                [                   
+                    InlineKeyboardButton(
+                        "Commands & Help ❔", callback_data="cbbasic"
+                    ),
+                ],
                 [
                     InlineKeyboardButton(
-                        "Handle", url="https://t.me/Shubhanshutya"
-                    ),
-                    InlineKeyboardButton(
-                        "𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐋𝐢𝐬𝐭", callback_data="cbbasic"
-                    ),
-                    InlineKeyboardButton(
-                        "How to add me🤷", callback_data="cbhowtouse"
+                        "How to Use Me ❓", callback_data="cbhowtouse"
                     ),
                   ],[
                     InlineKeyboardButton(
-                       " 𝐒𝐮𝐩𝐩𝐨𝐫𝐭👿", url="https://t.me/godzilla_chatting"
+                       "Updates", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                     InlineKeyboardButton(
-                        "𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url="https://t.me/BotDuniyaXd"
+                       "Support", url=f"https://t.me/{GROUP_SUPPORT}"
                     )
                 ],[
                     InlineKeyboardButton(
-                        "➕ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩➕",
+                        "➕ Add Me To Your Group ➕",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ]
