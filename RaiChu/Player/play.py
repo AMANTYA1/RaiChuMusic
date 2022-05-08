@@ -60,6 +60,7 @@ async def play(c: Client, m: Message):
     await m.delete()
     replied = m.reply_to_message
     chat_id = m.chat.id
+    user_id = m.from_user.id
     buttons = audio_markup(user_id)
     if m.sender_chat:
         return await m.reply_text("You're an __Anonymous__ Admin !\n\n» revert back to user account from admin rights.")
