@@ -4,7 +4,22 @@ from pyrogram.types import (
     InlineQueryResultArticle,
     InputTextMessageContent,
 )
+from youtubesearchpython import VideosSearch
 
+
+def ytsearch(query):
+    try:
+        search = VideosSearch(query, limit=1).result()
+        data = search["result"][0]
+        songname = data["title"]
+        url = data["link"]
+        duration = data["duration"]
+        thumbnail = f"https://i.ytimg.com/vi/{data['id']}/hqdefault.jpg"
+        videoid = data["id"]
+        return [songname, url, duration, thumbnail, videoid]
+    except Exception as e:
+        print(e)
+        return 0
 
 @Client.on_inline_query()
 async def inline(client: Client, query: InlineQuery):
@@ -49,4 +64,12 @@ async def inline(client: Client, query: InlineQuery):
       ]
     )
     search_query = query.query.lower().strip().rstrip()
-   
+
+    if search_query == "":
+        await client.answer_inline_query(
+            query.id,
+            results=answerss,
+            switch_pm_text="Type The Name Of The Song/Video YouTube...",
+            switch_pm_parameter="help",
+            cache_time=0,
+        )
