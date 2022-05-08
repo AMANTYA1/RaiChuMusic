@@ -1,4 +1,4 @@
-from RaiChu.main import bot
+from Process.main import bot
 from pyrogram import filters
 
 
