@@ -1,26 +1,29 @@
-import os
-import sys
-import random
-import asyncio
-from RaiChu.config import API_HASH, API_ID, BOT_TOKEN, SESSION_NAME
 from pyrogram import Client
-from pytgcalls import PyTgCalls
+from RaiChu.Config import API_ID, API_HASH, BOT_TOKEN, SESSION_NAME
+from pytgcalls import PyTgCalls, idle
 
 bot = Client(
-    ":memory:",
+    "RaiChu",
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    plugins={"root": "RaiChu.Player"},
-)
+    plugins=dict(root="RaiChu.Player"),
+    )
 
-BOT = TelegramClient('BOT', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
-
-user = Client(
-    SESSION_NAME,
+aman = Client(
     api_id=API_ID,
     api_hash=API_HASH,
-)
+    session_name=SESSION_NAME,
+    
+    )
 
-Test = Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'RaiChu.Player'})
-call_py = PyTgCalls(Test)
+user = PyTgCalls(aman,
+    cache_duration=100,
+    overload_quiet_mode=True,)
+
+call_py = PyTgCalls(aman, overload_quiet_mode=True)
+
+with Client("RaiChu", API_ID, API_HASH, bot_token=BOT_TOKEN) as app:
+    me_bot = app.get_me()
+with aman as app:
+    me_aman = app.get_me()
