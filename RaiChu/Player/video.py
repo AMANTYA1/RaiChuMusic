@@ -1,12 +1,12 @@
 import re
 import asyncio
 
-from config import ASSISTANT_NAME, BOT_USERNAME, IMG_1, IMG_2, IMG_6
+from RaiChu.config import ASSISTANT_NAME, BOT_USERNAME, IMG_1, IMG_2, IMG_6
 from Prince.inline import stream_markup, audio_markup
 from Process.design.chatname import CHAT_TITLE
 from Process.filters import command, other_filters
 from Process.queues import QUEUE, add_to_queue
-from Process.main import call_py, user
+from Process.main import call_py, aman as user
 from pyrogram import Client
 from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
@@ -183,8 +183,8 @@ async def vplay(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 Channel", url=f"https://t.me/BotDuniya"),
-                            InlineKeyboardButton("💭 Support", url=f"https://t.me/PmPermit")
+                            InlineKeyboardButton("📣 Channel", url=f"https://t.me/BotDuniyaXd"),
+                            InlineKeyboardButton("💭 Support", url=f"https://t.me/godzilla_chatting")
                         ],
                         [
                             InlineKeyboardButton("🗑 Close", callback_data="cls")
@@ -265,8 +265,8 @@ async def vplay(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 Channel", url=f"https://t.me/PrincexNetwork"),
-                            InlineKeyboardButton("💭 Support", url=f"https://t.me/PrincexSupport")
+                            InlineKeyboardButton("📣 Channel", url=f"https://t.me/BotDuniyaXd"),
+                            InlineKeyboardButton("💭 Support", url=f"https://t.me/godzilla_chatting")
                         ],
                         [
                             InlineKeyboardButton("🗑 Close", callback_data="cls")
@@ -310,7 +310,7 @@ async def vplay(c: Client, m: Message):
                     else:
                         try:
                             await loser.edit(
-                            f"**Downloader**\n\n**Title**: {title[:22]}\n\n100% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
+                            f"**𝘽𝙤𝙩 𝘿𝙪𝙣𝙞𝙮𝙖 Downloader**\n\n**Title**: {title[:22]}\n\n100% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
                         )
                             await call_py.join_group_call(
                                 chat_id,
