@@ -7,9 +7,9 @@
         "telegram bot",
         "pyrogram"
     ],
-    "website": "https://t.me/RaiChuUpdate",
-    "repository": "https://github.com/RaiChuXD/RaiChuMusic",
-    "success_url": "https://t.me/RaiChuXD",
+    "website": "https://t.me/BotDuniyaXd",
+    "repository": "https://github.com/AMANTYA1/RaiChu-MusicV2",
+    "success_url": "https://t.me/BotDuniyaXd",
     "env": {
         "API_ID": {
             "description": "your API_ID from my.telegram.org",
@@ -46,17 +46,17 @@
         "GROUP_SUPPORT": {
             "description": "if you have group, then fill the group username here without @",
             "required": false,
-            "value": "RaiChuOfficial"
+            "value": "godzilla_chatting"
         },
         "UPDATES_CHANNEL": {
             "description": "if you have channel, then fill the channel username here without @",
             "required": false,
-            "value": "RaiChuUpdate"
+            "value": "BotDuniyaXd"
         },
         "OWNER_NAME": {
             "description": "fill with your telegram account username without @",
             "required": false,
-            "value": "RaiChuXD"
+            "value": "Shubhanshutya"
         },
         "ALIVE_NAME": {
             "description": "fill with your telegram account nickname/name",
