@@ -1,9 +1,10 @@
 from Process.Cache.admins import admins
 from Process.main import call_py
-from pyrogram import Client, filters
+from pyrogram import filters
 from Process.decorators import authorized_users_only
 from Process.filters import command, other_filters
 from Process.queues import QUEUE, clear_queue
+from Process.main import bot as Client
 from Process.utils import skip_current_song, skip_item
 from RaiChu.config import BOT_USERNAME, GROUP_SUPPORT, IMG_3, UPDATES_CHANNEL, IMG_5
 from pyrogram.types import (
