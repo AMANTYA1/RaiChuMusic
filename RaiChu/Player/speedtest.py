@@ -6,8 +6,8 @@ from PIL import Image
 from pyrogram.types import Message
 from pyrogram import filters, Client
 
-from RaiChu.main import bot as app
-from RaiChuconfig import SUDO_USERS as SUDOERS
+from Process.main import bot as app
+from RaiChu.config import SUDO_USERS as SUDOERS
 
 @app.on_message(filters.command("speedtest") & ~filters.edited)
 async def run_speedtest(_, message):
