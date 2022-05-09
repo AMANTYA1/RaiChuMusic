@@ -47,11 +47,11 @@ def stream_markup(user_id, dlurl):
       InlineKeyboardButton(text="▢", callback_data=f'cbstop | {user_id}')
     ],
     [
-      InlineKeyboardButton(text="• Iɴʟɪɴᴇ", switch_inline_query_current_chat=""),
-      InlineKeyboardButton(text="YouTube", url=f"{dlurl}")
+      InlineKeyboardButton(text="• ᴍᴇɴᴜ •", switch_inline_query_current_chat=""),
+      InlineKeyboardButton(text="• ʏᴏᴜᴛᴜʙᴇ •", url=f"{dlurl}")
     ],
     [
-      InlineKeyboardButton(text="• Cʟᴏsᴇ", callback_data=f'cls'),
+      InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data=f'cls'),
     ],
   ]
   return buttons
@@ -64,7 +64,7 @@ def menu_markup(user_id):
       InlineKeyboardButton(text="▢", callback_data=f'cbstop | {user_id}')
     ],
      [InlineKeyboardButton(text="🔇", callback_data=f'cbmute | {user_id}'),
-      InlineKeyboardButton(text="Update", url=f"https://t.me/BotDuniyaXd"),
+      InlineKeyboardButton(text="ᴜᴩᴅᴀᴛᴇs", url=f"https://t.me/BotDuniyaXd"),
       InlineKeyboardButton(text="🔊", callback_data=f'cbunmute | {user_id}')],
   ]
   return buttons
@@ -73,17 +73,17 @@ def song_download_markup(videoid):
     buttons = [
         [
             InlineKeyboardButton(
-                text="⬇️ Get Audio",
+                text="⬇️ ᴀᴜᴅɪᴏ",
                 callback_data=f"gets audio|{videoid}",
             ),
             InlineKeyboardButton(
-                text="⬇️ Get Video",
+                text="⬇️ ᴠɪᴅᴇᴏ",
                 callback_data=f"gets video|{videoid}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🔙 Back",
+                text="ʙᴀᴄᴋ",
                 callback_data="cbhome",
             )
         ],
@@ -94,7 +94,7 @@ close_mark = InlineKeyboardMarkup(
   [
     [
       InlineKeyboardButton(
-        "🗑 Close", callback_data="cls"
+        "• ᴄʟᴏsᴇ •", callback_data="cls"
       )
     ]
   ]
@@ -105,7 +105,7 @@ back_mark = InlineKeyboardMarkup(
   [
     [
       InlineKeyboardButton(
-        "🔙 Go Back", callback_data="cbmenu"
+        "• ʙᴀᴄᴋ •", callback_data="cbmenu"
       )
     ]
   ]
