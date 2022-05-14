@@ -68,7 +68,7 @@ Get pyrogram (p)  `SESSION` from here:
 
 
 
-##  deploy to Heroku 
+##  Deploy to Heroku  🤝
 The easy way to host this bot
 
 
