@@ -61,7 +61,7 @@ COMMAND | FUNCTION
 
 ## 🍁 Get STRING_SESSION from below:
 
-Get pyrogram (p)  `SESSION` from here:
+Get pyrogram `SESSION` from here:
 
 
 <p align="center"><a href="https://t.me/StringGenRo_bot"><img src="https://img.shields.io/badge/REPLIT-SESSION-yellow?style=plastic&logo=replit&logoColor=red"width="270" height="40" /></a></p>
@@ -69,7 +69,7 @@ Get pyrogram (p)  `SESSION` from here:
 
 
 ##  Deploy to Heroku  🤝
-The easy way to host this bot
+The easiest way to host this bot
 
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/AMANTYA1/RaiChu-MusicV2"><img src="https://img.shields.io/badge/HEROKU-DEPLOY-blue?style=plastic&logo=heroku&logoColor=yellow"width="300"heigh="100" /></a></p>
@@ -96,10 +96,10 @@ The easy way to host this bot
  <h3> <details>
   <summary><b>Credits 💖</b></summary>
 
-- [Null-coder](https://github.com/AMANTYA1) FOR EDITING
-- [levina-lab](https://github.com/levina-lab/video-stream) first coder
-- [Yukki](https://github.com/TeamYukki/YukkiMusicBot) FOR Thumbnail
-- [MarshalX](https://github.com/MarshalX) for [pytgcalls](https://github.com/MarshalX)
+- [Null Coder](https://github.com/AMANTYA1) for Editing
+- [Levina](https://github.com/levina-lab/video-stream) for Codes
+- [Team Yukki](https://github.com/TeamYukki/YukkiMusicBot) for Thumbnail
+- [Marshal](https://github.com/MarshalX) for [pytgcalls](https://github.com/MarshalX)
 - [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram) 
 </details> </h3>
 
