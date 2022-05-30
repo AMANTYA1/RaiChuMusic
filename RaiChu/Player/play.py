@@ -19,7 +19,7 @@ from Process.filters import command, other_filters
 from Process.queues import QUEUE, add_to_queue
 from Process.main import call_py, aman as user
 from Process.utils import bash
-from pyrogram import Client
+from Process.main import bot as Client
 from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from pytgcalls import StreamType
