@@ -116,21 +116,6 @@ async def start(client: Client, message: Message):
         )
     )
 
-@Client.on_message(command(["repo", "source"]) & filters.group & ~filters.edited)
-async def help(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"https://telegra.ph/file/f01f58c3d9b187ae1d8a1.jpg",
-        caption=f"""Here Is The Source Code Fork And Give Stars ✨""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        " ʀᴇᴘᴏ ⚒️", url=f"https://github.com/AMANTYA1/RaiChutest")
-                ]
-            ]
-        ),
-    )
-
 
 @Client.on_message(command(["help", f"help@{BOT_USERNAME}"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
