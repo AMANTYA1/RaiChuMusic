@@ -15,7 +15,7 @@ from RaiChu.inline import menu_markup, song_download_markup, stream_markup, audi
 @Client.on_callback_query(filters.regex("cbstart"))
 async def cbstart(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""Hello, My name is {BOT_NAME}.
+        f"""Hello {message.from_user.mention()}, My name is {BOT_NAME}.
 
 I'm a telegram streaming bot with some useful features.
 
@@ -91,6 +91,8 @@ async def cbbasic(_, query: CallbackQuery):
 👩🏻‍💼 » /vstream - Type this with give the YouTube live stream video link or m3u8 link to play live Video. (Remember to don't play local audio/video files or non-live YouTube video by using this command!, because it will cause unforeseen problems.)
 
 🤷 » /skip - To Skip current song
+
+🤷 » /repo - To get the repo of RaiChu-Music
 
 🙋 » /end - To end play song in vc.""",
         reply_markup=InlineKeyboardMarkup(
