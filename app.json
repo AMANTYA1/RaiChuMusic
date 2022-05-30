@@ -1,7 +1,7 @@
 {
     "name": "RaiChu Music Bot",
     "description": "Telegram bot for Streaming  Music trought the Telegram Group Video Chat, powered by pytgcalls and pyrogram",
-    "logo": "https://telegra.ph/file/1c41ded2dd871eb36bd7e.png",
+    "logo": "https://telegra.ph/file/b581039c9a18d939d19dd.jpg",
     "keywords": [
         "pytgcalls",
         "telegram bot",
@@ -57,11 +57,6 @@
             "description": "fill with your telegram account username without @",
             "required": false,
             "value": "Shubhanshutya"
-        },
-        "ALIVE_NAME": {
-            "description": "fill with your telegram account nickname/name",
-            "required": false,
-            "value": "RaiChuXMusic"
         }
     },
     "addons": [],
