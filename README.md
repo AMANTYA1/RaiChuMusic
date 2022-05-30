@@ -33,7 +33,7 @@ telegram bot project for streaming video on telegram video chat, powered by [tgc
 🏷️ --**Setting Up**-- :
 - 1.) first, add @ALONE_XDBot to your group.
 - 2.) then promote me as admin and give all permissions except anonymous admin.
-- 3.) add @RaiChupulg to your group.
+- 3.) add @RaiChupulgXd to your group.
 - 4.) turn on the voice chat first before start to play song.
 - 5.) type /play (reply to video) to start streaming.
 - 6.) type /end to end the video streaming.
