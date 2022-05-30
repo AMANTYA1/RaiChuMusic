@@ -38,7 +38,7 @@ async def _human_time_duration(seconds):
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
         await message.reply_text(
-        f"""f"""Hello {message.from_user.mention()}, My name is {BOT_NAME}.
+        f"""Hello {message.from_user.mention()}, My name is {BOT_NAME}.
 I'm a telegram streaming bot with some useful features.
 Feel free to add me to your groups.
         """,
