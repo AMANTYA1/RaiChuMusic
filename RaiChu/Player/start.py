@@ -10,6 +10,7 @@ from RaiChu.config import (
 )
 from Process.filters import other_filters2
 from time import time
+from Process.filters import command
 from datetime import datetime
 from Process.decorators import authorized_users_only
 
@@ -69,4 +70,20 @@ Feel free to add me to your groups.
             ]
         ),
      disable_web_page_preview=True
+    )
+
+
+@Client.on_message(command(["repo", "source"]) & filters.group & ~filters.edited)
+async def help(client: Client, message: Message):
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/f01f58c3d9b187ae1d8a1.jpg",
+        caption=f"""Here Is The Source Code Fork And Give Stars ✨""",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        " ʀᴇᴘᴏ ⚒️", url=f"https://github.com/AMANTYA1/RaiChutest")
+                ]
+            ]
+        ),
     )
