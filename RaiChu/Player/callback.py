@@ -15,7 +15,7 @@ from RaiChu.inline import menu_markup, song_download_markup, stream_markup, audi
 @Client.on_callback_query(filters.regex("cbstart"))
 async def cbstart(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""Hello {message.from_user.mention()}, My name is {BOT_NAME}.
+        f"""Hello , My name is {BOT_NAME}.
 
 I'm a telegram streaming bot with some useful features.
 
