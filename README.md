@@ -42,7 +42,7 @@ telegram bot project for streaming video on telegram video chat, powered by [tgc
 
 🏷️ --**Common Commands**-- :
 
-COMMAND | FUNCTION
+COMMAND | FUNCTION 👻
 :--- | :---
 `/start` | start bot
 `/help`| get help
