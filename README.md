@@ -28,7 +28,7 @@ telegram bot project for streaming video on telegram video chat, powered by [tgc
 ## Repo Stats
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=AMANTYA1&repo=RaiChu-MusicV2&theme=dark)
 
-## Fine me here  [RaiChu](https://t.me/YumiXBot)
+## Find me here : [RaiChu](https://t.me/YumiXBot)
 
 🏷️ --**Setting Up**-- :
 - 1.) first, add @YumiXBot to your group.
