@@ -28,7 +28,7 @@ telegram bot project for streaming video on telegram video chat, powered by [tgc
 ## Repo Stats
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=AMANTYA1&repo=RaiChuMusic&theme=dark)
 
-## Find me here : [RaiChu](https://t.me/YumiXBot)
+## Find me here : [RaiChu](https://t.me/BooNullXbot)
 
 🏷️ --**Setting Up**-- :
 - 1.) first, add @YumiXBot to your group.
@@ -85,7 +85,7 @@ The easiest way to host this bot
 - sudo curl -sL https://deb.nodesource.com/setup_17.x | sudo bash -
 - sudo apt-get install -y nodejs
 - sudo npm i -g npm
-- git clone https://github.com/AMANTYA1/RaiChu-MusicV2  #Clone your repo.
+- git clone https://github.com/AMANTYA1/RaiChuMusic  #Clone your repo.
 - cd RaiChu-MusicV2
 - sudo pip3 install --upgrade pip
 - sudo pip3 install -U -r requirements.txt
@@ -104,7 +104,7 @@ The easiest way to host this bot
 </details> </h3>
 
 ### Support & Updates 🌹
-<a href="https://t.me/godzilla_chatting"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram">
+<a href="https://t.me/TheSupportChat"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram">
 
-</a> <a href="https://t.me/BotDuniyaXd"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+</a> <a href="https://t.me/TheUpdatesChannel"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
