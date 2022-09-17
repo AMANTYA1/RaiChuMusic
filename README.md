@@ -26,7 +26,7 @@ telegram bot project for streaming video on telegram video chat, powered by [tgc
 </p>  
 
 ## Repo Stats
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=AMANTYA1&repo=RaiChu-MusicV2&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=AMANTYA1&repo=RaiChuMusic&theme=dark)
 
 ## Find me here : [RaiChu](https://t.me/YumiXBot)
 
@@ -72,7 +72,7 @@ Get pyrogram `SESSION` from here:
 The easiest way to host this bot
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/AMANTYA1/RaiChu-MusicV2"><img src="https://img.shields.io/badge/HEROKU-DEPLOY-blue?style=plastic&logo=heroku&logoColor=yellow"width="300"heigh="100" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/AMANTYA1/RaiChuMusic"><img src="https://img.shields.io/badge/HEROKU-DEPLOY-blue?style=plastic&logo=heroku&logoColor=yellow"width="300"heigh="100" /></a></p>
 
 
 ## VPS Deployment
