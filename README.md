@@ -31,7 +31,7 @@ telegram bot project for streaming video on telegram video chat, powered by [tgc
 ## Find me here : [RaiChu](https://t.me/BooNullXbot)
 
 🏷️ --**Setting Up**-- :
-- 1.) first, add @BooNullXbot to your group.
+- 1.) first, add @JenniFer_x_RoBot to your group.
 - 2.) then promote me as admin and give all permissions except anonymous admin.
 - 3.) add @CrowXnull to your group.
 - 4.) turn on the voice chat first before start to play song.
@@ -64,7 +64,7 @@ COMMAND | FUNCTION
 Get pyrogram `SESSION` from here:
 
 
-<p align="center"><a href="https://t.me/StringGenRo_bot"><img src="https://img.shields.io/badge/REPLIT-SESSION-yellow?style=plastic&logo=replit&logoColor=red"width="270" height="40" /></a></p>
+<p align="center"><a href="https://replit.com/@Itz-zaid/Generator"><img src="https://img.shields.io/badge/REPLIT-SESSION-yellow?style=plastic&logo=replit&logoColor=red"width="270" height="40" /></a></p>
 
 
 
