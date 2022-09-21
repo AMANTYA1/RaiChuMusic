@@ -15,7 +15,7 @@ from telethon.tl.functions.users import GetFullUserRequest
 
 
 
-@register(pattern="^/q ?(.*)")
+@register(pattern="^/bug ?(.*)")
 async def quotly(event):
     match = event.pattern_match.group(1).strip()
     if not event.is_reply:
@@ -70,7 +70,7 @@ async def quotly(event):
         file = await create_quotly(reply_, bg=match, reply=replied_to, sender=user)
     except Exception as er:
         return await msg.edit(f"ERROR: {er}")
-    message = await reply.reply("Quotly by CrowCoder", file=file)
+    message = await reply.reply("Bugger by CrowCoder", file=file)
     remove(file)
     await msg.delete()
     return message
