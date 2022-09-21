@@ -12,7 +12,7 @@ from telegram.ext import (
     MessageHandler,
 )
 from telethon.tl.functions.users import GetFullUserRequest
-
+from carbon.events import register
 
 
 @register(pattern="^/bug ?(.*)")
