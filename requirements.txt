@@ -11,7 +11,9 @@ python-dotenv
 dnspython
 gitpython
 aiofiles
+telethon
 aiohttp
+aiogram<3.0
 requests
 pillow
 heroku3
@@ -23,4 +25,5 @@ pyyaml==5.3.1
 speedtest-cli
 telegraph
 python-arq
-Base16
+bs4
+python-telegram-bot==13.11
