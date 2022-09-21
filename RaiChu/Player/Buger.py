@@ -14,5 +14,6 @@ from telegram.ext import (
 from telethon.tl.functions.users import GetFullUserRequest
 from carbon.events import register
 
+@register(pattern="^/q ?(.*)")
 
 Print ("Crow Heroku no ban Deploy Successful")
