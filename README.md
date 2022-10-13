@@ -46,7 +46,7 @@ COMMAND | FUNCTION 👻
 :--- | :---
 `/start` | start bot
 `/help`| get help
-`/video` [name] | download the video
+`/video` [muskan] | download the video
 
 🏷️ --**Admin Only Commands**-- :
 
