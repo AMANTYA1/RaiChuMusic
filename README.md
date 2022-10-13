@@ -1,9 +1,9 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-<h1> RaiChu Music </h1>
+<h1> Muskan music </h1>
 
 telegram bot project for streaming video on telegram video chat, powered by [tgcalls](https://github.com/MarshalX/tgcalls) and [pyrogram](https://github.com/pyrogram/pyrogram)
 
-<p align="center"><a href="https://t.me/BotDuniyaXd"><img src="https://telegra.ph/file/29b1910781fb0d6a4869f.jpg" width="300"></a></p>
+<p align="center"><a href="https://t.me/BotDuniyaXd"><img src="https://telegra.ph/file/90365ee3ff87363fc76ab.jpg" width="300"></a></p>
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=green" /></a>
     <a href="https://github.com/AMANTYA1/RaiChu-MusicV2/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" /></a>
@@ -46,7 +46,7 @@ COMMAND | FUNCTION 👻
 :--- | :---
 `/start` | start bot
 `/help`| get help
-`/video` [name] | download the video
+`/video` [muskan] | download the video
 
 🏷️ --**Admin Only Commands**-- :
 

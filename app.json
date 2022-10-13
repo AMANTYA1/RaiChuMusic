@@ -1,14 +1,14 @@
 {
-    "name": "RaiChu Music Bot",
+    "name": "Muskan Music Bot",
     "description": "Telegram bot for Streaming  Music trought the Telegram Group Video Chat, powered by pytgcalls and pyrogram",
-    "logo": "https://telegra.ph/file/b581039c9a18d939d19dd.jpg",
+    "logo": "https://telegra.ph/file/90365ee3ff87363fc76ab.jpg",
     "keywords": [
         "pytgcalls",
         "telegram bot",
         "pyrogram"
     ],
     "website": "https://t.me/BotDuniyaXd",
-    "repository": "https://github.com/AMANTYA1/RaiChuMusic",
+    "repository": "https://github.com/Kamran920/RaiChuMusic.",
     "success_url": "https://t.me/BotDuniyaXd",
     "env": {
         "API_ID": {
@@ -46,17 +46,17 @@
         "GROUP_SUPPORT": {
             "description": "if you have group, then fill the group username here without @",
             "required": false,
-            "value": "godzilla_chatting"
+            "value": "Teamxo77"
         },
         "UPDATES_CHANNEL": {
             "description": "if you have channel, then fill the channel username here without @",
             "required": false,
-            "value": "BotDuniyaXd"
+            "value": "mizuki_updates"
         },
         "OWNER_NAME": {
             "description": "fill with your telegram account username without @",
             "required": false,
-            "value": "Shubhanshutya"
+            "value": "Robin"
         }
     },
     "addons": [],
