@@ -56,7 +56,7 @@
         "OWNER_NAME": {
             "description": "fill with your telegram account username without @",
             "required": false,
-            "value": "Shubhanshutya"
+            "value": "MeCorw"
         }
     },
     "addons": [],
@@ -74,7 +74,7 @@
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "free"
+            "size": "eco"
         }
     },
     "stack": "container"
