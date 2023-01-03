@@ -23,7 +23,8 @@ from Process.main import bot as Client
 from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from pytgcalls import StreamType
-from pytgcalls.types.input_stream import AudioPiped
+from pytgcalls.types.input_stream.quality import MediumQualityVideo
+from pytgcalls.types.input_stream import AudioImagePiped, AudioVideoPiped
 from youtubesearchpython import VideosSearch
 from Process.design.thumbnail import play_thumb, queue_thumb
 from RaiChu.inline import stream_markup, audio_markup
@@ -223,13 +224,25 @@ async def play(c: Client, m: Message):
                             f"**𝙉𝙪𝙡𝙡 Downloader**\n\n**Title**: {title[:22]}\n\n0% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
                         )
                             await call_py.join_group_call(
+
                                 chat_id,
-                                AudioPiped(
-                                    ytlink,
-                                ),
-                                stream_type=StreamType().local_stream,
+
+                                AudioImagePiped(
+
+                                          ytlink,
+
+                                          playimg,
+
+                               video_parameters=MediumQualityVideo(),
+
+                            ),
+
+                               stream_type=StreamType().local_stream,
+
                             )
+
                             add_to_queue(chat_id, songname, ytlink, url, "Audio", 0)
+
                             await suhu.delete()
                             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                             await m.reply_photo(
