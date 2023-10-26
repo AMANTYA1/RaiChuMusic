@@ -224,7 +224,6 @@ async def play(c: Client, m: Message):
                             f"**𝙉𝙪𝙡𝙡 Downloader**\n\n**Title**: {title[:22]}\n\n0% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
                         )
                             await call_py.join_group_call(
-await call_py.join_group_call(
                                 chat_id,
                                 AudioPiped(
                                     ytlink,
