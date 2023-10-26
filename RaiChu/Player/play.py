@@ -24,7 +24,7 @@ from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from pytgcalls import StreamType
 from pytgcalls.types.input_stream.quality import MediumQualityVideo
-from pytgcalls.types.input_stream import AudioImagePiped, AudioVideoPiped
+from pytgcalls.types.input_stream import AudioPiped
 from youtubesearchpython import VideosSearch
 from Process.design.thumbnail import play_thumb, queue_thumb
 from RaiChu.inline import stream_markup, audio_markup
