@@ -224,25 +224,14 @@ async def play(c: Client, m: Message):
                             f"**𝙉𝙪𝙡𝙡 Downloader**\n\n**Title**: {title[:22]}\n\n0% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
                         )
                             await call_py.join_group_call(
-
+await call_py.join_group_call(
                                 chat_id,
-
-                                AudioImagePiped(
-
-                                          ytlink,
-
-                                          playimg,
-
-                               video_parameters=MediumQualityVideo(),
-
-                            ),
-
-                               stream_type=StreamType().local_stream,
-
+                                AudioPiped(
+                                    ytlink,
+                                ),
+                                stream_type=StreamType().local_stream,
                             )
-
                             add_to_queue(chat_id, songname, ytlink, url, "Audio", 0)
-
                             await suhu.delete()
                             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                             await m.reply_photo(
